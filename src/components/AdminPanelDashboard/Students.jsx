@@ -528,7 +528,7 @@ const Students = ({ isDarkMode }) => {
                               <h4 className="font-bold text-lg">{project.title}</h4>
                               <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{project.description}</p>
                               {project.tech_stack && (
-                                <p className="text-sm mt-2"><span className="font-semibold">Tech Stack:</span> {project.tech_stack}</p>
+                                <p className="text-sm mt-2"><span className="font-semibold">Techck:</span> {project.tech_stack}</p>
                               )}
                               {project.github_pr_link && (
                                 <a href={project.github_pr_link} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline text-sm mt-2 inline-flex items-center gap-1">

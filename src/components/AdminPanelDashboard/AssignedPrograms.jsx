@@ -292,7 +292,7 @@ export default function AssignedPrograms({ isDarkMode }) {
               {assignments.length === 0 ? (
                 <tr>
                   <td colSpan="4" className="px-6 py-8 text-center text-gray-500">
-                    No assignments yet. Assign a program to a mentor above.
+                    No ssignments yet. Assign a program to a mentor above.
                   </td>
                 </tr>
               ) : (
